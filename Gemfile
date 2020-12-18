@@ -42,7 +42,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-  gem 'better_errors', '-> 2.4'
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
   gem 'guard', '~> 2.14'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
